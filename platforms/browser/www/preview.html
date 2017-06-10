@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>mobix - mobile web app template</title>
+<meta name="author" content="sindevo.com">
+<meta name="description" content="web app mobile template">
+<link rel="stylesheet" href="preview/preview.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="preview/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+var $ = jQuery.noConflict();
+	$('.video_button').click(function(){
+			$('.video_testing_popup').fadeIn();
+	});
+	$('.close_video_testing').click(function(){
+			$('.video_testing_popup').fadeOut();
+	});
+});
+</script>
+</head>
+<body>
+<div class="main_content">
+
+
+
+        <div class="left_content">
+            <h1><img src="preview/images/logo.png" alt="" title="" /></h1>
+            <p>Biotic is a template for mobile and tablet. You can use it to create a mobile website, web app, and integrated with solutions like phonegap, for a real native app.</p>
+            
+            <h2>Try another color</h2>
+            <ul class="designs_list">
+              <li><a href="#" id="main"><span>01. yellow</span> <img src="preview/images/main.png" alt="" title="" /></a></li>
+              <li><a href="#" id="green"><span>02. green</span> <img src="preview/images/green.png" alt="" title="" /></a></li>
+              <li><a href="#" id="blue"><span>03. blue</span> <img src="preview/images/blue.png" alt="" title="" /></a></li>
+            </ul>
+        </div>
+        
+        <div class="iphone_bg">
+        	<div class="mobile_wrap">
+            <iframe id="frame" frameborder="no" border="0" scrolling="yes" width="320px" height="568px;"></iframe> 
+            </div>
+        </div>
+        
+        
+        <div class="right_content">
+            <div class="swipe_to_navigate">Swipe/Touch to navigate</div>
+            <h3>Test it with your mobile</h3>
+            <img src="preview/images/qrcode.png" alt="" title="" />
+            <small>http://sindevo.com/biotic/</small>
+ 
+            <h3>Main features:</h3>
+            <ul class="preview_list">
+              <li>jQuery Mobile powered</li>
+              <li>Unique design layout</li>
+              <li>Ajax pages</li>
+              <li>Cool 3D page transitions</li>
+              <li>Photos / Videos pages</li>
+              <li>Tabs, toggles elements</li>
+              <li>Working contact form</li>
+            </ul>
+        </div> 
+        
+        
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict(); 
+$(document).ready(function () {
+$("#frame").attr("src", "index.html");
+
+$("#main").click(function () { 
+	  $("#frame").attr("src", "index.html");
+}); 
+$("#green").click(function () { 
+	  $("#frame").attr("src", "index-green.html");
+}); 
+$("#blue").click(function () { 
+	  $("#frame").attr("src", "index-blue.html");
+}); 
+
+});
+</script>  
+</body>
+</html>
