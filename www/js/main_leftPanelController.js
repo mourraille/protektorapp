@@ -7,4 +7,8 @@ window.onload = function () {
 
     $('#username').text(name);
     $('#profilephoto').attr('src', photo);
+
+
 }
+
+
