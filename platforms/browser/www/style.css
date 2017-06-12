@@ -116,6 +116,8 @@ padding:10px 20px;
 text-align:center;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
 }
+
+
 .call_button a{
 display:block;
 width:100%;
@@ -125,7 +127,22 @@ text-align:center;
 color:#FFFFFF;
 font-size:20px;
 -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+
 }
+
+.call_button:active {
+	display:block;
+	width:100%;
+	margin:0;
+	padding:10px 0;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:20px;
+	-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+	background-color: white;
+}
+
+
 /*===============================================*/
 /* 4. LEFT AND RIGHT SLIDE PANELS */
 /*===============================================*/	

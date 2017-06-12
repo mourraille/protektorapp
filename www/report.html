@@ -21,10 +21,11 @@
 <link type="text/css" rel="stylesheet" href="style.css" />
 <link type="text/css" rel="stylesheet" href="css/colors/yellow.css" />
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+    <script src="js/controllers/report.js"></script>
 </head>
 <body>
 
-<div data-role="page" id="contact" class="secondarypage" data-theme="b">
+<div data-role="page" id="report" class="secondarypage" data-theme="b">
 
     <div data-role="header" data-position="fixed">
         <div class="nav_left_button"><a href="#" class="nav-toggle"><span></span></a></div>
@@ -36,17 +37,17 @@
     <div role="main" class="ui-content">
 
        <div class="pages_maincontent">
-              <h2 class="page_title">get in touch</h2> 
-              <div class="page_content"> 
+              <h2 class="page_title">Create your report</h2>
 
+              <h3 style="margin-left: 5%;" class="author"></h3>
+              <div class="page_content">
+                  <img style="border-radius: 30%; height: 50px; width: 50px;" class="authorPhoto"/>
                     <h2 id="Note"></h2>
                     <div class="contactform">
                     <form class="cmxform" id="ContactForm" method="post" action="">
-                    <label>Name:</label>
+                    <label>Incident type</label>
                     <input type="text" name="ContactName" id="ContactName" value="" class="form_input required" data-role="none" />
-                    <label>Email:</label>
-                    <input type="text" name="ContactEmail" id="ContactEmail" value="" class="form_input required email" data-role="none" />
-                    <label>Message:</label>
+                    <label>Additional message</label>
                     <textarea name="ContactComment" id="ContactComment" class="form_textarea textarea required" rows="" cols="" data-role="none"></textarea>
                     <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="Send" />
                     <input class="" type="hidden" name="to"  value="youremail@yourwebsite.com" />
@@ -93,33 +94,30 @@
     <div data-role="panel" id="right-panel" data-display="reveal" data-position="right">
     
           <div class="user_login_info">
-          
-                    <div class="user_thumb_container">
-                    <img src="img/profile.jpg" alt="" title="" />
-                        <div class="user_thumb">
-                        <img src="img/author.jpg" alt="" title="" />
-                        </div>  
-                    </div>
-                    
-                    <div class="user_details">
-                    <p>Sarah Williams</p>
-                        <ul class="user_social">
-                        <li><a href="social.html"><img src="img/icons/white/twitter.png" alt="" title="" /></a></li>
-                        <li><a href="social.html"><img src="img/icons/white/facebook.png" alt="" title="" /></a></li>
 
-                        </ul> 
-                    </div>  
- 
+              <div class="user_thumb_container">
+                  <img src="img/profile.jpg" alt="" title="" />
+                  <div class="user_thumb">
+                      <img class="profilephoto"  alt="" title="" />
+                  </div>
+              </div>
 
-                   <nav class="user-nav">
-                        <ul>
-                          <li><a href="features.html"><img src="img/icons/white/settings.png" alt="" title="" /><span>Settings</span></a></li>
-                          <li><a href="features.html"><img src="img/icons/white/briefcase.png" alt="" title="" /><span>Account</span></a></li>
-                          <li><a href="features.html"><img src="img/icons/white/message.png" alt="" title="" /><span>Messages</span><strong class="yellow">12</strong></a></li>
-                          <li><a href="features.html"><img src="img/icons/white/download.png" alt="" title="" /><span>Downloads</span><strong class="yellow">5</strong></a></li>
-                          <li><a href="home.html"><img src="img/icons/white/lock.png" alt="" title="" /><span>Logout</span></a></li>
-                        </ul>
-                   </nav>
+              <div class="user_details">
+                  <p class="username"></p>
+                  <ul class="user_social">
+                      <li><a href="social.html"><img src="img/icons/white/twitter.png" alt="" title="" /></a></li>
+                      <li><a href="social.html"><img src="img/icons/white/facebook.png" alt="" title="" /></a></li>
+                  </ul>
+              </div>
+
+
+              <nav class="user-nav">
+                  <ul>
+                      <li><a href="features.html"><img src="img/icons/white/message.png" alt="" title="" /><span>My reports</span><strong class="yellow">12</strong></a></li>
+                      <li><a href="#right-panel"><img src="img/icons/white/settings.png" alt="" title="" /><span>Settings</span></a></li>
+                      <li><a href="home.html"><img src="img/icons/white/lock.png" alt="" title="" /><span>Logout</span></a></li>
+                  </ul>
+              </nav>
           </div>
           <div class="close_loginpopup_button"><a href="#" data-rel="close"><img src="img/icons/white/menu_close.png" alt="" title="" /></a></div>
           

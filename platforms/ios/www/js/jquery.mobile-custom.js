@@ -1,7 +1,9 @@
+var name = localStorage.getItem('name');
+var photo = localStorage.getItem('photo');
+var email = localStorage.getItem('email');
+
+
 $(document).on('swipeleft swiperight', function (e) {
-		// We check if there is no open panel on the page because otherwise
-		// a swipe to close the left panel would also open the right panel (and v.v.).
-		// We do this by checking the data that the framework stores on the page element (panel: open).
 		if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
 			if ( e.type === "swipeleft" ) {
 				$.mobile.activePage.find( "#right-panel" ).panel( "open" );	
@@ -82,4 +84,21 @@ $( document ).delegate("#contact", "pagecreate", function() {
 		});
 });
 
+function startSocial() {
+	$('.username').text(name);
+	$('.profilephoto').attr('src', photo);
+}
 
+$( document ).delegate("#homepage", "pagecreate", function() {
+	startSocial();
+});
+
+$( document ).delegate("#map", "pagecreate", function() {
+	startSocial();
+});
+
+$( document ).delegate("#report", "pagecreate", function() {
+	startSocial();
+	$('.author').text(name);
+	$('.authorPhoto').attr('src',photo);
+});

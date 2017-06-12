@@ -3,6 +3,7 @@ var $ = jQuery;
 $('#loader').fadeIn();
 var formData = $(theForm).serialize(),
 note = $('#Note');
+
 $.ajax({
 type: "POST",
 url: "send.php",
