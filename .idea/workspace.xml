@@ -2,6 +2,550 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34aca38-556d-4e95-b46a-92e77ae27c6d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-36-ldpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-48-mdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-72-hdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-96-xhdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-48-type5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-50-type3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-80-type4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/bada/icon-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/blackberry/icon-80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/blackberry10/icon-80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-57-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-72-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/tizen/icon-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/webos/icon-64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-173-tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-62-tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/browser/www/img/swipe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/img/swipe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/.ratignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/create" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/create.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/lib/check_reqs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/lib/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/lib/update.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/build.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/clean" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/defaults.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/lib/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/lib/clean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/run" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/run.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/cordova/version.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/templates/project/www/manifest.webapp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/update" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/bin/update.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/cordova-js-src/confighelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/cordova-js-src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/cordova-js-src/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/cordova-lib/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/.bin/nopt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/.bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/adm-zip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/headers/entryHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/headers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/headers/mainHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/methods/deflater.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/methods/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/methods/inflater.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/util/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/util/errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/util/fattr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/util/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/zipEntry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/adm-zip/zipFile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/conversions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/css-keywords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/charset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/language.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/express.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/middleware/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/middleware/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/array-flatten.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/browser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/buffer-concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/stringify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/.bin/mime" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/build/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/mime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/types.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/codes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/serve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/src/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/src/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/src/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/cordova-serve/src/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/bin/nopt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/examples/my-program.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/lib/nopt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/abbrev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/nopt/test/basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/q/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/libraries/shelljs_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/shelljs.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/MAINTAINERS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/build/output.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/make.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/scripts/generate-docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/scripts/run-tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/cd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/cp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/dirs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/echo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/grep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/ln.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/ls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/mkdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/mv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/popd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/pushd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/pwd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/rm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/sed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/tempdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/toEnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/node_modules/shelljs/src/which.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-browser/tests/spec/create.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/browser/cordova/node_modules/.bin/nopt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/browser/cordova/node_modules/.bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/browser/cordova/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/.bin/mime" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/browser/www/js/controllers/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/about.html" afterPath="$PROJECT_DIR$/platforms/browser/www/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/blog-single.html" afterPath="$PROJECT_DIR$/platforms/browser/www/blog-single.html" />
@@ -13,8 +557,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/css/swipebox.css" afterPath="$PROJECT_DIR$/platforms/browser/www/css/swipebox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/css/themes/default/jquery.mobile-1.4.5.css" afterPath="$PROJECT_DIR$/platforms/browser/www/css/themes/default/jquery.mobile-1.4.5.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/features.html" afterPath="$PROJECT_DIR$/platforms/browser/www/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/home.html" afterPath="$PROJECT_DIR$/platforms/browser/www/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/email.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/email.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/jquery.mobile-custom.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/jquery.mobile-custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/jquery.swipebox.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/jquery.swipebox.js" />
@@ -57,7 +599,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/swipebox.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/swipebox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/themes/default/jquery.mobile-1.4.5.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/themes/default/jquery.mobile-1.4.5.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/features.html" afterPath="$PROJECT_DIR$/platforms/ios/www/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/email.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/email.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery.mobile-custom.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/jquery.mobile-custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/jquery.swipebox.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/jquery.swipebox.js" />
@@ -83,9 +624,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/swipebox.css" afterPath="$PROJECT_DIR$/www/css/swipebox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/themes/default/jquery.mobile-1.4.5.css" afterPath="$PROJECT_DIR$/www/css/themes/default/jquery.mobile-1.4.5.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/features.html" afterPath="$PROJECT_DIR$/www/features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/home.html" afterPath="$PROJECT_DIR$/www/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/app.js" afterPath="$PROJECT_DIR$/www/js/controllers/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/email.js" afterPath="$PROJECT_DIR$/www/js/email.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery.mobile-custom.js" afterPath="$PROJECT_DIR$/www/js/jquery.mobile-custom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery.swipebox.js" afterPath="$PROJECT_DIR$/www/js/jquery.swipebox.js" />
@@ -108,6 +646,550 @@
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="node_modules/cordova-browser/.gitattributes" />
+    <ignored path="node_modules/cordova-browser/.npmignore" />
+    <ignored path="node_modules/cordova-browser/.ratignore" />
+    <ignored path="node_modules/cordova-browser/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/CONTRIBUTING.md" />
+    <ignored path="node_modules/cordova-browser/LICENSE" />
+    <ignored path="node_modules/cordova-browser/NOTICE" />
+    <ignored path="node_modules/cordova-browser/package.json" />
+    <ignored path="node_modules/cordova-browser/README.md" />
+    <ignored path="node_modules/cordova-browser/RELEASENOTES.md" />
+    <ignored path="node_modules/cordova-browser/VERSION" />
+    <ignored path="node_modules/cordova-browser/bin/create" />
+    <ignored path="node_modules/cordova-browser/bin/create.bat" />
+    <ignored path="node_modules/cordova-browser/bin/update" />
+    <ignored path="node_modules/cordova-browser/bin/update.bat" />
+    <ignored path="node_modules/cordova-browser/cordova-js-src/confighelper.js" />
+    <ignored path="node_modules/cordova-browser/cordova-js-src/exec.js" />
+    <ignored path="node_modules/cordova-browser/cordova-js-src/platform.js" />
+    <ignored path="node_modules/cordova-browser/cordova-lib/cordova.js" />
+    <ignored path="node_modules/cordova-browser/tests/spec/create.spec.js" />
+    <ignored path="node_modules/cordova-browser/bin/lib/check_reqs.js" />
+    <ignored path="node_modules/cordova-browser/bin/lib/create.js" />
+    <ignored path="node_modules/cordova-browser/bin/lib/update.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/.bin/nopt" />
+    <ignored path="node_modules/cordova-browser/node_modules/.bin/shjs" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/adm-zip.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/zipEntry.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/zipFile.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/.jshintrc" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/RELEASENOTES.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/serve.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/CHANGES.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/q.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/queue.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/q/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/global.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/MAINTAINERS" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/make.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/shell.js" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/build" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/build.bat" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/clean" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/defaults.xml" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/run" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/run.bat" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/version" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/version.bat" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/index.html" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/manifest.webapp" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/headers/entryHeader.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/headers/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/headers/mainHeader.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/methods/deflater.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/methods/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/methods/inflater.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/util/constants.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/util/errors.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/util/fattr.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/util/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/adm-zip/util/utils.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/src/browser.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/src/exec.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/src/platform.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/src/server.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/src/util.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/bin/nopt.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/examples/my-program.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/lib/nopt.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/abbrev.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/node_modules/abbrev/test.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/nopt/test/basic.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/.name" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/encodings.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/jsLibraryMappings.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/misc.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/modules.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/shelljs.iml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/vcs.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/workspace.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/bin/shjs" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/build/output.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/scripts/generate-docs.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/scripts/run-tests.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/cat.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/cd.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/chmod.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/common.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/cp.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/dirs.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/echo.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/error.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/exec.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/find.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/grep.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/ln.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/ls.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/mkdir.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/mv.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/popd.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/pushd.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/pwd.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/rm.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/sed.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/set.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/tempdir.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/test.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/to.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/toEnd.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/touch.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/src/which.js" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/lib/build.js" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/cordova/lib/clean.js" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/css/index.css" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/img/logo.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/js/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/inspectionProfiles/profiles_settings.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/inspectionProfiles/Project_Default.xml" />
+    <ignored path="node_modules/cordova-browser/node_modules/shelljs/.idea/libraries/shelljs_node_modules.xml" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-36-ldpi.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-48-mdpi.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-72-hdpi.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/android/icon-96-xhdpi.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/bada/icon-128.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-48-type5.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-50-type3.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/bada-wac/icon-80-type4.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/blackberry/icon-80.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/blackberry10/icon-80.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-57-2x.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-57.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-72-2x.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/ios/icon-72.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/tizen/icon-128.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/webos/icon-64.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-173-tile.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-48.png" />
+    <ignored path="node_modules/cordova-browser/bin/templates/project/www/res/icon/windows-phone/icon-62-tile.png" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/application.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/express.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/request.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/response.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/utils.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/view.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/escape-string-regexp/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/supports-color/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/bytes/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/.jshintrc" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/bower.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/browser.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/component.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/debug.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/Makefile" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/on-headers/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/vary/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/middleware/init.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/middleware/query.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/layer.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/lib/router/route.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/array-flatten.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/array-flatten/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-disposition/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/content-type/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/cookie-signature/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/.jshintrc" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/bower.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/browser.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/component.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/debug.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/Makefile" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/escape-html/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/etag/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/fresh/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/merge-descriptors/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/methods/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/parseurl/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/path-to-regexp/Readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.eslintignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/bower.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/CHANGELOG.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/CONTRIBUTING.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/range-parser/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/serve-static/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/utils-merge/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/vary/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/CHANGELOG.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/conversions.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/css-keywords.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/ansi-styles/node_modules/color-convert/route.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/license" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/readme.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/db.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/compressible/node_modules/mime-db/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/debug/node_modules/ms/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/debug/node_modules/ms/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/finalhandler/node_modules/unpipe/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/on-finished/node_modules/ee-first/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/parse.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/stringify.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/lib/utils.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/parse.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/stringify.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/qs/test/utils.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/browser/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/buffer-concat.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/callsite-tostring.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/event-listener-count.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/depd/lib/compat/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/forwarded/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.travis.yml" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/bower.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/.bin/mime" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/destroy/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/cli.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/mime.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/types.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/.npmignore" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/History.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/ms/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/codes.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/statuses/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/media-typer/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/charset.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/encoding.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/language.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/compression/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/db.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/mime-types/node_modules/mime-db/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits_browser.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/README.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/http-errors/node_modules/inherits/test.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/build/build.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/mime/build/test.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/db.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/HISTORY.md" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/index.js" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/LICENSE" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/package.json" />
+    <ignored path="node_modules/cordova-browser/node_modules/cordova-serve/node_modules/express/node_modules/type-is/node_modules/mime-types/node_modules/mime-db/README.md" />
+    <ignored path="platforms/ios/www/home.html" />
+    <ignored path="platforms/ios/www/report.html" />
+    <ignored path="platforms/ios/www/img/swipe.gif" />
+    <ignored path="platforms/ios/www/js/controllers/app.js" />
+    <ignored path="platforms/browser/cordova/node_modules/.bin/nopt" />
+    <ignored path="platforms/browser/cordova/node_modules/.bin/shjs" />
+    <ignored path="platforms/browser/cordova/node_modules/cordova-serve/node_modules/express/node_modules/send/node_modules/.bin/mime" />
+    <ignored path="platforms/browser/www/img/swipe.gif" />
+    <ignored path="platforms/browser/www/js/controllers/app.js" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,8 +1210,8 @@
       <file leaf-file-name="jquery.mobile-custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/jquery.mobile-custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -190,8 +1272,8 @@
       <file leaf-file-name="blue.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/colors/blue.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+            <state relative-caret-position="130">
+              <caret line="151" column="17" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -472,7 +1554,7 @@
       <workItem from="1497134176802" duration="31096000" />
       <workItem from="1497223782984" duration="4000" />
       <workItem from="1497225428133" duration="12415000" />
-      <workItem from="1497244310744" duration="6441000" />
+      <workItem from="1497244310744" duration="7952000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando repo">
       <created>1497091515889</created>
@@ -502,11 +1584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497240212906</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Funcionalidad de 'agregar reporte al mapa' terminada.">
+      <created>1497251272659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1497251272659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52423000" />
+    <option name="totallyTimeSpent" value="53934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="47" width="1440" height="832" extended-state="0" />
@@ -585,7 +1674,9 @@
     <MESSAGE value="login con facebook, manejo de usuarios y ligeros cambios en UI" />
     <MESSAGE value="Algunas modificaciones de look and feel en la pantalla de inicio" />
     <MESSAGE value="se agrega un controller general para todas las vistas, modificaciones leves en esquema del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrega un controller general para todas las vistas, modificaciones leves en esquema del proyecto" />
+    <MESSAGE value="Funcionalidad de 'agregar reporte al mapa' terminada." />
+    <MESSAGE value="Funcionalidad de 'agregar reporte al mapa' terminada. (con algunas mejoras de look and feel)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funcionalidad de 'agregar reporte al mapa' terminada. (con algunas mejoras de look and feel)" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
@@ -597,6 +1688,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,6 +1736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,6 +1772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -711,6 +1805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-636">
           <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -732,6 +1827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="59" column="77" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,6 +1849,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,6 +1913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="162" column="90" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,6 +1928,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,7 +1941,7 @@
         <state relative-caret-position="-8534">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1497073886000" expanded="true" signature="1183:1414" ph="..." />
             <marker date="1497073886000" expanded="true" signature="1292:1404" ph="..." />
             <marker date="1497073886000" expanded="true" signature="12592:12637" ph="..." />
@@ -852,6 +1953,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-225">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,6 +1977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,16 +2037,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/colors/blue.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+        <state relative-caret-position="130">
+          <caret line="151" column="17" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.mobile-custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
           <folding />
         </state>
       </provider>
