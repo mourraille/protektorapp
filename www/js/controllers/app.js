@@ -1,4 +1,4 @@
-var flag = false // este flag es para brincarse el login con facebook y pasar directo al app!!!!!!!!!!!!!!!!!!!!
+var flag = true // este flag es para brincarse el login con facebook y pasar directo al app!!!!!!!!!!!!!!!!!!!!
 
 
 document.addEventListener('deviceready',function() {

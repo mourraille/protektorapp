@@ -147,3 +147,20 @@ background-color:#41b1b8;
 .user-nav ul li{
 border-bottom:1px #2a979e solid;
 }
+
+#map-canvas {
+	height: 600px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+	display:none;
+}
+.gmnoprint div {
+	background:none !important;
+}
