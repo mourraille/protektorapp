@@ -7,6 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.auth0.sample"
+        },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.auth0.sample"
         },
@@ -17,5 +21,9 @@
             "PACKAGE_NAME": "com.auth0.sample"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.auth0.sample"
+        }
+    }
 }
