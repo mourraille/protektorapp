@@ -19,9 +19,9 @@ function placeIncident() {
     var type =  $('#incidenttype').val();
     var description =  $('#comment').val();
     var address = localStorage.getItem('newAddress');
-    lat = lat.replace('.','');
-    lon = lon.replace('.','');
-    lon = lon.replace('-','');
+    lat = lat.replace('.',',');
+    lon = lon.replace('.',',');
+
 
 
         var WSurl= 'http://apiprotektor.azurewebsites.net/api/Reporte/GuardarReporte/'+address+'/'+description+'/'+type+'/'+email+'/'+lon+'/'+lat;

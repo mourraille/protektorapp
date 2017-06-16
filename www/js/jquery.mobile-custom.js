@@ -112,18 +112,18 @@ function startSocial() {
 
 $( document ).delegate("#homepage", "pagecreate", function() {
 	startSocial();
-
 });
+
 
 $( document ).delegate("#map", "pagecreate", function() {
 	startSocial();
 	initMap();
-
 });
 
 
 
 function initMap() {
+
 	var pinColor = "454545";
 	var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + pinColor,
 		new google.maps.Size(21, 34),
@@ -148,9 +148,42 @@ function initMap() {
 	var geocoder = new google.maps.Geocoder();
     var marker;
 
+	var r = JSON.parse(localStorage.getItem('Reportes'));
+	alert(r.length);
+
+	for (var i = 0; i < r.length; i++) {
+		var mylat = r[i].Latitud;
+		var mylon = r[i].Longitud;
+		mylat = mylat.replace(',','.');
+		mylon = mylon.replace(',','.');
+		lat = parseFloat(lat);
+		lon = parseFloat(lon);
+
+		var markerlatlon = new google.maps.LatLng(mylat,mylon);
+
+		marker = new google.maps.Marker({
+			position: markerlatlon,
+			map: map,
+			animation: google.maps.Animation.DROP,
+			icon: pinImage,
+			shadow: pinShadow,
+			clickable: true,
+		});
+		marker.info = new google.maps.InfoWindow({
+			content: '<h1>'+r[i].Tipo+'</h1><br>'+'<h3>'+r[i].URLFoto+'</h3><br>'+r[i].Descripcion,
+		});
+		marker.setMap(map);
+		google.maps.event.addListener(marker, 'click', function() {
+			marker.info.open(map, marker);
+		});
+	}
+
+
 	// window.infowindow = new google.maps.InfoWindow({
 	// 	content: ''
 	// });
+
+
 
 	google.maps.event.addListener(map, 'click', function(event) {
 		geocoder.geocode({
@@ -162,15 +195,6 @@ function initMap() {
 					var address = results[0].formatted_address
 					var latitude = event.latLng.lat();
 					var longitude = event.latLng.lng();
-
-
-				marker = new google.maps.Marker({
-						position: event.latLng,
-						map: map,
-						animation: google.maps.Animation.DROP,
-						icon: pinImage,
-						shadow: pinShadow,
-					});
 
 					localStorage.setItem('newLat', latitude);
 					localStorage.setItem('newLong', longitude);
@@ -190,7 +214,6 @@ function initMap() {
 
 		});
 	});
-
 
 	google.maps.event.addListenerOnce(map, 'idle', function() {
 		google.maps.event.trigger(map, 'resize');
