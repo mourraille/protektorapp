@@ -7,7 +7,7 @@ var R = 6378.137; //Radio de la tierra en km
 
 function VerReportes() {
     var req = $.ajax({
-        url: 'http://apiprotektor.azurewebsites.net/api/Reporte/VerReporres?callback=?',
+        url: 'http://apiprotektor2.azurewebsites.net/api/Reporte/VerReporres?callback=?',
         timeout: 10000
     });
     req.success(function (datos) {
@@ -67,9 +67,11 @@ function FiltrarReportes(miLatitud, miLongitud, radio) {
     miLongitud = parseFloat(miLongitud);
 
     for (var i = 0; i < reportes.length; i++) {
-
-        var rLat = parseFloat(reportes[i].Latitud);
-        var rLon = parseFloat(reportes[i].Longitud);
+ 
+        var lat = reportes[i].Latitud.replace(',','.');
+        var long = reportes[i].Longitud.replace(',','.');
+        var rLat = parseFloat(lat);
+        var rLon = parseFloat(long);
 
         var distancia = ObtenerDistancia(miLatitud, miLongitud, rLat, rLon);
         if (distancia <= radio) {
