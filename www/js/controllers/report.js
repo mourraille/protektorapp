@@ -24,7 +24,7 @@ function placeIncident() {
 
 
 
-        var WSurl= 'http://apiprotektor.azurewebsites.net/api/Reporte/GuardarReporte/'+address+'/'+description+'/'+type+'/'+email+'/'+lon+'/'+lat;
+        var WSurl= 'http://apiprotektor2.azurewebsites.net/api/Reporte/GuardarReporte/'+address+'/'+description+'/'+type+'/'+email+'/'+lon+'/'+lat;
     alert(WSurl);
 
         var req = $.ajax({
