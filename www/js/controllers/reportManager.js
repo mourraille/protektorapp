@@ -19,6 +19,7 @@ function VerReportes() {
         } else {
             guardarReportes(datos);
         }
+        cargarNewssFeed();
     });
     req.error(function () {
         alert("Error el cargar los datos");
@@ -67,7 +68,7 @@ function FiltrarReportes(miLatitud, miLongitud, radio) {
     miLongitud = parseFloat(miLongitud);
 
     for (var i = 0; i < reportes.length; i++) {
- 
+
         var lat = reportes[i].Latitud.replace(',','.');
         var long = reportes[i].Longitud.replace(',','.');
         var rLat = parseFloat(lat);
