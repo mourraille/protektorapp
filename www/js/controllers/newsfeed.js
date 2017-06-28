@@ -16,11 +16,19 @@ function cargarNewssFeed() {
             '       <span class="month">'+ reportes[i].Fecha +'</span>'+
             '   </div>'+
             '   <div class="post_title">'+
-            '    <h2><a href="blog-single.html" data-transition="flip">'+ reportes[i].URLFoto +'</a></h2>'+
+            '    <h2><a onclick="cargarDetallenewsfeed('+ reportes[i].Id+',\''+reportes[i].Tipo+'\',\''+reportes[i].Fecha+'\',\''+reportes[i].URLFoto+'\',\''+reportes[i].Descripcion+'\','+reportes[i].Checks+',\''+reportes[i].Latitud+'\',\''+reportes[i].Longitud+'\')"' +
+            'href="#" data-transition="flip">'+ reportes[i].URLFoto +'</a></h2>'+
             '   </div>'+
             '</div>'+
             '</li>';
     }
 
     document.getElementById("newsfeed").innerHTML = html;
+}
+
+function cargarDetallenewsfeed(id, tipo, fecha, urlfoto, descripcion, checks, latitud, longitud) {
+    var detalle = [id, tipo, fecha, urlfoto, descripcion, checks, latitud, longitud];
+    localStorage.setItem('DetalleReporte', JSON.stringify(detalle));
+
+    window.location.replace("blog-single.html");
 }
